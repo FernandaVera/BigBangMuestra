@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(248, 248, 248, 0.849);
+}
+
+.principal-banner{
+    height: 100vh;
+    background-image: linear-gradient(to right,#1171bb83, #6db0469a), url(../img/lance-anderson-QdAAasrZhdk-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.screen-banner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: #f2f2f2d7;
+    color: #3F3F3F;
+    margin: auto;
+    border-radius: 1em;
+}
+
+.screen-banner h1{
+    font-size: 3em;
+    margin-bottom: 14px;
+}
+
+.screen-banner p{
+    font-size: 1.5em;
+    margin-bottom: 14px;
+}
+
+.screen-banner hr{
+
+border-bottom: 4px solid #6db046;
+width: 60%;
+display: inline-block;
+
+}
+
+.screen-banner_link{
+    margin: 15px;
+    position: relative;
+    
+}
+
+.screen-banner_link a{
+    display: inline-block;
+    color: #3F3F3F;
+    border: 1px solid #1171bb;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 170px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.screen-banner_link a:hover{
+background-color: #1171bbbb;
+color: #fff;
+}
+
+.navbar-nav{
+    justify-content: end !important;
+    
+}
+
+.container h2{
+    color: #6db046;
+    font-size: 45px;
+} 
+
+.us-container{
+    padding: 10% 20%;
+}
+
+.us-container hr{
+    border-top: 3px solid #6db046;
+}
+
+.container-video{
+    background-color: #6db046;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
+.container-video h2{
+    margin-left: 48%;
+    color: #3F3F3F;
+    font-weight: 700;
+}
+
+.container-video p{
+    margin-left: 48%;
+    text-align: justify;
+    color: #fff;
+}
+
+.container-video iframe{
+    margin-top: 10%;
+}
+
+.container-department{
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: linear-gradient(to right,#b3b3b3, #b3b3b3), url(../img/verne-ho-0LAJfSNa-xQ-unsplash.jpg);
+      position: relative;
+      padding: 10%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+  .container-department .row{
+      background-color: rgb(61, 61, 61);
+      color:#fff;
+      padding: 2%;
+  }
+
+  .gerco-footer{
+      background-color: #6db046;
+      padding: 10%;
+      margin-top: 30px;
+  }
+
+  .gerco-footer a{
+    color:#fff;
+    text-decoration: none;
+    display: block;
+  }
+
+  .gerco-footer h3{
+      color: #3F3F3F;
+      font-size: 2em;
+      font-weight: 600;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .container-video h2 {
+    padding-top: 10%;
+    margin-left: 15%;
+    }
+    .container-video p {
+        margin-left: 15%;
+        text-align: justify;
+        padding-right: 15%;
+
+    }
+
+    .container-video iframe{
+        margin-left: 15%;
+        padding-right: 10%;
+    }
+
+
+  }
